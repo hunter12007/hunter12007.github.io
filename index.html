@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/custom.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet"> 
+
+    <style>
+
+      @media screen and (min-width: 720px) {
+        .card {
+          width: 50%;
+
+          font-size: 2vh;
+        }
+      }
+      body {
+        background: url(https://storage.googleapis.com/dream-machines-output/4b9256bf-d449-4ee4-9410-e8e67ec3560d/0_0.png) no-repeat center center fixed;
+        background-size: cover;
+        overflow-y: scroll;
+      }
+
+      .card-body {
+        color: white;
+      }
+
+      .card {
+        background-color: rgba(69, 49, 116, 0.692);
+        border-radius: 30px;
+      }
+
+      img {
+        height: 20vh !important;
+      }
+
+      img, .caption {
+        background: rgba(146, 126, 194, 0.733);
+        border-radius: 10px;
+        border: 2px solid rgb(209, 191, 253);
+      }
+
+    </style>
+</head>
+<body>
+
+    <!--Header and navbar -->
+    <div class="container-fluid bg-primary bg-gradient d-flex flex-column justify-content-center pb-3" style="height: 23vh">
+        <div class="text-light align-self-center text-uppercase pt-4">
+          <!-- Header text -->
+            <h1 style="font-family:'Josefin Sans', sans-serif;">Hunter Andrews</h1>
+        </div>  
+        <!--Navbar -->
+        <button class="btn btn-outline-light d-lg-none text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"><i class="fa-solid fa-bars"></i></button>
+        <div class="offcanvas-lg offcanvas-top align-self-lg-center" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+          <div class="offcanvas-header bg-primary">
+            <h5 style="font-family:'Josefin Sans', sans-serif;" class="offcanvas-title text-light" id="offcanvasResponsiveLabel">HUNTER ANDREWS</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+          </div>
+
+          
+          <div class="offcanvas-body align-self-left bg-primary">
+            <nav class="navbar navbar-expand-lg text-light">
+              <div class="container-fluid">
+                <!--<ul class="navbar-nav align-self-left">
+                  <li class="nav-item p-3" style="font-size: 3vh;"><button class="btn btn-outline-light text-light" type="button">Home</button></li>
+                  <li class="nav-item p-3" style="font-size: 3vh;"><button class="btn btn-outline-light text-light" type="button">Resume</button></li>
+                  <li class="nav-item p-3" style="font-size: 3vh;"><button class="btn btn-outline-light text-light" type="button">Certifications</button></li>
+                  <li class="nav-item p-3" style="font-size: 3vh;"><button class="btn btn-outline-light text-light" type="button">Examples</button></li>             
+                </ul>-->
+
+                <ul class="nav nav-pills" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link btn text-light btn-outline-light btn" id="home-tab" data-bs-toggle="tab" data-bs-target="#one" type="button" role="tab" aria-controls="one" aria-selected="false">Home</button>
+                  </li>
+              
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link btn btn-outline-light text-light" id="resume-tab" data-bs-toggle="tab" data-bs-target="#two" type="button" role="tab" aria-controls="two" aria-selected="false">Resume</button>
+                  </li>
+
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link btn btn-outline-light text-light" id="certs-tab" data-bs-toggle="tab" data-bs-target="#three" type="button" role="tab" aria-controls="three" aria-selected="false">Certifications</button>
+                  </li>
+
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link btn btn-outline-light text-light" id="work-tab" data-bs-toggle="tab" data-bs-target="#four" type="button" role="tab" aria-controls="four" aria-selected="false">Work Examples</button>
+                  </li>
+                </ul>
+              
+                <!--<div class="tab-content">
+                  <div class="tab-pane fade active" id="one">
+                    Button 1 content
+                  </div>
+              
+                  <div class="tab-pane fade" id="two">
+                    Button 2 content
+                  </div>-->
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      
+    
+      <!-- About body-->
+
+
+        <div class="tab-content">
+          <div class="tab-pane fade show" id="one">
+            <div class="container-fluid d-flex flex-column justify-content-start align-items-center" style="height: 77vh;">
+              <div class="card mt-3 w-sm-25">
+                <div class="card-body text-center" style="font-family:'Josefin Sans', sans-serif;">
+                  My name is Hunter Andrews, and I'm currently an information technology student at a vocational high school, as well as a summer student
+                  at University of Massachusetts Lowell. In 2023-2024, I competed at the district level in SkillsUSA for Information Technology Services.
+                  I'm skilled in troubleshooting and repairing desktop computers and have experience with notebook computer repair, and I have thorough knowledge
+                  of the most recent versions of CSS, HTML and SCSS as well as some CSS frameworks. I'm also a freelance artist and repair technician, and in my free 
+                  time I enjoy listening to classic, progressive and electronic rock. I play a Squier Stratocaster, and my favorite song to play (and the one I'm best at) 
+                  is Seven Nation Army by The White Stripes.
+                </div>
+              </div>
+          </div>
+        </div>
+      </div> 
+
+        <div class="tab-content">
+          <div class="tab-pane fade show" id="two">
+            <div class="container-fluid d-flex flex-column justify-content-start align-items-center" style="height: 77vh;">
+              <div class="card mt-3 w-sm-25">
+                <div class="card-body text-center" style="font-family:'Josefin Sans', sans-serif;">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit iure doloribus esse placeat voluptates deleniti, facere consequatur autem, perferendis ea id asperiores. Temporibus eveniet adipisci odio provident praesentium aspernatur quos tempora in tempore? Sunt, quos voluptatibus!
+                </div>
+              </div>
+          </div>
+        </div>
+      </div> 
+
+      <div class="tab-content">
+        <div class="tab-pane fade show" id="three">
+          <div class="container-fluid d-flex flex-column justify-content-start align-items-center" style="height: 77vh;">
+            <div class="card mt-3 w-sm-25">
+              <div class="card-body text-center">
+                <p class="p-3 caption">
+                  I am certified in HTML, CSS, PC Fundamentals, Cybersecurity and Computational Thinking, and I am working towards more
+                whenever I can.
+                </p>
+              </div>
+              <div class="card-body text-center" style="font-family:'Josefin Sans', sans-serif;">
+                 <img src="https://images.credly.com/size/340x340/images/79cdd92a-60f0-43ca-af4e-761c538b4292/image.png" class="img-fluid m-4 p-2" alt="mta-html-css.png">
+
+                 <img src="https://cdn.testout.com/certification-meta/itf-pro-en-us/badge.png" class="img-fluid m-4 p-2" alt="pcpro-cert.png">
+
+                 <img src="https://images.credly.com/images/34be5a4c-211c-4796-9983-34c46a3d1e8a/_ITS-Badges-Computational-Think.png" class="img-fluid m-4 p-2" alt="itspecialist-ct.png">
+
+                 <img src="https://images.credly.com/images/6c002f51-3c32-4a8f-9b9d-2147666c993e/image.png" class="img-fluid m-4 p-2" alt="cisco-ccst.png">
+
+                 <img src="https://images.credly.com/images/d05c40ff-0e15-4c1d-8c4f-6607e93eda24/ITS-Badges-Cybersecurity.png" class="img-fluid m-4 p-2" alt="itspecialist-cybersec.png">
+              </div>
+            </div>
+        </div>
+      </div>
+    </div> 
+
+    <div class="tab-content">
+      <div class="tab-pane fade show" id="four">
+        <div class="container-fluid d-flex flex-column justify-content-start align-items-center" style="height: 77vh;">
+          <div class="card mt-3 w-sm-25">
+            <div class="card-body text-center" style="font-family:'Josefin Sans', sans-serif;">
+              Only I, Vor, know the true power of the Void. I was cut in half, destroyed, but through it's Janus Key, the Void called to me.
+               It brought me here and here I was reborn. We cannot blame these creatures, they are being led by a false prophet, an impostor who knows not the secrets of the Void.
+                Behold the Tenno, come to scavenge and desecrate this sacred realm. My brothers, did I not tell of this day? Did I not prophesize this moment? Now, I will stop them. 
+                Now I am changed, reborn through the energy of the Janus Key.Forever bound to the Void. Let it be known, if the Tenno want true salvation, 
+                they will lay down their arms, and wait for the baptism of my Janus key. 
+            </div>
+          </div>
+      </div>
+    </div>
+  </div> 
+
+    
+      <!-- Bottom footer -->
+      <div class="container-fluid bg-primary bg-gradient d-flex flex-column justify-content-center fixed-bottom bg-opacity-50" style="height: 8vh">
+        <p class="text-light align-self-center">@2024 Hunter Andrews</p>
+      </div>
+   
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Fontawesome icon import -->
+    <script src="https://kit.fontawesome.com/5a7300d3e6.js" crossorigin="anonymous"></script>
+</body>
+</html>
